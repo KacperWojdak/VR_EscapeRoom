@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kacpe\\Desktop\\VR_EscapeRoom\\VR_EscapeRoom\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3285E681-4855-F393-0C9D-A94C8C7F9A05}|SteamVR.csproj|c:\\users\\kacpe\\desktop\\vr_escaperoom\\vr_escaperoom\\assets\\steamvr\\interactionsystem\\core\\scripts\\hoverbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3285E681-4855-F393-0C9D-A94C8C7F9A05}|SteamVR.csproj|solutionrelative:assets\\steamvr\\interactionsystem\\core\\scripts\\hoverbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3285E681-4855-F393-0C9D-A94C8C7F9A05}|SteamVR.csproj|c:\\users\\kacpe\\desktop\\vr_escaperoom\\vr_escaperoom\\assets\\steamvr\\interactionsystem\\samples\\scripts\\buttonexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3285E681-4855-F393-0C9D-A94C8C7F9A05}|SteamVR.csproj|solutionrelative:assets\\steamvr\\interactionsystem\\samples\\scripts\\buttonexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HoverButton.cs",
+              "DocumentMoniker": "C:\\Users\\kacpe\\Desktop\\VR_EscapeRoom\\VR_EscapeRoom\\Assets\\SteamVR\\InteractionSystem\\Core\\Scripts\\HoverButton.cs",
+              "RelativeDocumentMoniker": "Assets\\SteamVR\\InteractionSystem\\Core\\Scripts\\HoverButton.cs",
+              "ToolTip": "C:\\Users\\kacpe\\Desktop\\VR_EscapeRoom\\VR_EscapeRoom\\Assets\\SteamVR\\InteractionSystem\\Core\\Scripts\\HoverButton.cs",
+              "RelativeToolTip": "Assets\\SteamVR\\InteractionSystem\\Core\\Scripts\\HoverButton.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T12:07:21.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ButtonExample.cs",
+              "DocumentMoniker": "C:\\Users\\kacpe\\Desktop\\VR_EscapeRoom\\VR_EscapeRoom\\Assets\\SteamVR\\InteractionSystem\\Samples\\Scripts\\ButtonExample.cs",
+              "RelativeDocumentMoniker": "Assets\\SteamVR\\InteractionSystem\\Samples\\Scripts\\ButtonExample.cs",
+              "ToolTip": "C:\\Users\\kacpe\\Desktop\\VR_EscapeRoom\\VR_EscapeRoom\\Assets\\SteamVR\\InteractionSystem\\Samples\\Scripts\\ButtonExample.cs",
+              "RelativeToolTip": "Assets\\SteamVR\\InteractionSystem\\Samples\\Scripts\\ButtonExample.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAkwDQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T12:06:00.143Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

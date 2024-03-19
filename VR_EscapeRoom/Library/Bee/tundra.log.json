@@ -434,27 +434,3 @@
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"MovedFromExtractor-Combine Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.dll.mvfrm","enqueuedNodeIndex":357,"enqueueingNodeAnnotation":"Csc Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.dll (+2 others)","enqueueingNodeIndex":354}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.dll.mvfrm.rsp","enqueuedNodeIndex":356,"enqueueingNodeAnnotation":"MovedFromExtractor-Combine Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.dll.mvfrm","enqueueingNodeIndex":357}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.pdb","enqueuedNodeIndex":435,"enqueueingNodeAnnotation":"ScriptAssemblies","enqueueingNodeIndex":6}
-{"msg":"newNode","annotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/SteamVR_Actions.UnityAdditionalFile.txt","index":319}
-{"msg":"newNode","annotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/SteamVR_Actions.rsp2","index":321}
-{"msg":"newNode","annotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/SteamVR_Actions.dll.mvfrm.rsp","index":323}
-{"msg":"runNodeAction","annotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/SteamVR_Actions.UnityAdditionalFile.txt","displayName":"Writing SteamVR_Actions.UnityAdditionalFile.txt","index":319}
-{"msg":"runNodeAction","annotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/SteamVR_Actions.rsp2","displayName":"Writing SteamVR_Actions.rsp2","index":321}
-{"msg":"noderesult","processed_node_count":222,"number_of_nodes_ever_queued":435,"annotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/SteamVR_Actions.UnityAdditionalFile.txt","index":319,"exitcode":0,"outputfile":"Library\\Bee\\artifacts\\1900b0aE.dag\\SteamVR_Actions.UnityAdditionalFile.txt"}
-{"msg":"runNodeAction","annotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/SteamVR_Actions.dll.mvfrm.rsp","displayName":"Writing SteamVR_Actions.dll.mvfrm.rsp","index":323}
-{"msg":"newNode","annotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/SteamVR_Actions.rsp","index":320}
-{"msg":"runNodeAction","annotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/SteamVR_Actions.rsp","displayName":"Writing SteamVR_Actions.rsp","index":320}
-{"msg":"noderesult","processed_node_count":249,"number_of_nodes_ever_queued":435,"annotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/SteamVR_Actions.rsp2","index":321,"exitcode":0,"outputfile":"Library\\Bee\\artifacts\\1900b0aE.dag\\SteamVR_Actions.rsp2"}
-{"msg":"noderesult","processed_node_count":255,"number_of_nodes_ever_queued":435,"annotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/SteamVR_Actions.dll.mvfrm.rsp","index":323,"exitcode":0,"outputfile":"Library\\Bee\\artifacts\\1900b0aE.dag\\SteamVR_Actions.dll.mvfrm.rsp"}
-{"msg":"noderesult","processed_node_count":256,"number_of_nodes_ever_queued":435,"annotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/SteamVR_Actions.rsp","index":320,"exitcode":0,"outputfile":"Library\\Bee\\artifacts\\1900b0aE.dag\\SteamVR_Actions.rsp"}
-{"msg":"newNode","annotation":"MovedFromExtractor-Combine Library/Bee/artifacts/1900b0aE.dag/SteamVR_Actions.dll.mvfrm","index":324}
-{"msg":"runNodeAction","annotation":"MovedFromExtractor-Combine Library/Bee/artifacts/1900b0aE.dag/SteamVR_Actions.dll.mvfrm","displayName":"Checking for moved APIs","index":324}
-{"msg":"noderesult","processed_node_count":430,"number_of_nodes_ever_queued":435,"annotation":"MovedFromExtractor-Combine Library/Bee/artifacts/1900b0aE.dag/SteamVR_Actions.dll.mvfrm","index":324,"exitcode":0,"outputfile":"Library\\Bee\\artifacts\\1900b0aE.dag\\SteamVR_Actions.dll.mvfrm"}
-{"msg":"newNode","annotation":"Csc Library/Bee/artifacts/1900b0aE.dag/SteamVR_Actions.dll (+2 others)","index":322}
-{"msg":"runNodeAction","annotation":"Csc Library/Bee/artifacts/1900b0aE.dag/SteamVR_Actions.dll (+2 others)","displayName":"Compiling C# (SteamVR_Actions)","index":322}
-{"msg":"noderesult","processed_node_count":431,"number_of_nodes_ever_queued":435,"annotation":"Csc Library/Bee/artifacts/1900b0aE.dag/SteamVR_Actions.dll (+2 others)","index":322,"exitcode":0,"outputfile":"Library\\Bee\\artifacts\\1900b0aE.dag\\SteamVR_Actions.dll"}
-{"msg":"newNode","annotation":"CopyFiles Library/ScriptAssemblies/SteamVR_Actions.pdb","index":425}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/SteamVR_Actions.pdb","displayName":"Copying SteamVR_Actions.pdb","index":425}
-{"msg":"noderesult","processed_node_count":432,"number_of_nodes_ever_queued":435,"annotation":"CopyFiles Library/ScriptAssemblies/SteamVR_Actions.pdb","index":425,"exitcode":0,"outputfile":"Library\\ScriptAssemblies\\SteamVR_Actions.pdb"}
-{"msg":"newNode","annotation":"CopyFiles Library/ScriptAssemblies/SteamVR_Actions.dll","index":424}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/SteamVR_Actions.dll","displayName":"Copying SteamVR_Actions.dll","index":424}
-{"msg":"noderesult","processed_node_count":433,"number_of_nodes_ever_queued":435,"annotation":"CopyFiles Library/ScriptAssemblies/SteamVR_Actions.dll","index":424,"exitcode":0,"outputfile":"Library\\ScriptAssemblies\\SteamVR_Actions.dll"}
