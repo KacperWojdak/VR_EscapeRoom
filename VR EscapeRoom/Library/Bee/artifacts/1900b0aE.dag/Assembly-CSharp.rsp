@@ -127,8 +127,8 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER
 -define:USE_INPUT_SYSTEM_POSE_CONTROL
--define:USE_INPUT_SYSTEM_POSE_CONTROL
 -define:UNITY_POST_PROCESSING_STACK_V2
+-define:ULTIMATEXR_USE_WINDOWSMIXEDREALITY_SDK
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/Managed/UnityEngine/UnityEditor.AccessibilityModule.dll"
@@ -377,6 +377,9 @@
 -r:"Library/PackageCache/com.unity.testtools.codecoverage@205a02cbcb39/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@0920df93f957/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PPv2URPConverters.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UltimateXR.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UltimateXR.Examples.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UltimateXR.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Burst.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Burst.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Collections.Editor.ref.dll"

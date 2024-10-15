@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 101
+  controlID: 44
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -364,7 +364,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Samples/XR Interaction Toolkit/3.0.5/Starter Assets
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -374,16 +374,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Samples/XR Interaction Toolkit/3.0.5/Starter Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\kacpe\Desktop\VR_EscapeRoom\VR EscapeRoom
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a6d20000
-    m_LastClickedID: 53926
-    m_ExpandedIDs: 00000000a6d2000000ca9a3b
+    m_SelectedIDs: 64200200
+    m_LastClickedID: 139364
+    m_ExpandedIDs: 000000009ad20000861a0200ae1a0200161b02003a1b0200861b0200a61b0200ac1b0200ca1b0200cc1b02000c1c0200101c0200401c0200441c02006e1c0200821c02009c1c0200a61c0200b01c0200de1c0200e01c0200301d0200721d0200741d0200521e0200702002001a2902001c2902002629020000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -412,7 +412,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a6d20000
+    m_ExpandedIDs: 000000009ad20000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -440,8 +440,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000102a0200
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -558,9 +558,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 6c200200
       m_LastClickedID: 0
-      m_ExpandedIDs: e0f9ffffecfafffffeba0000a4bb0000
+      m_ExpandedIDs: aa3afdffd6a2fdfff2a2fdffeebbfdff30edfdffbcf5fdfff6faffffb2240200d6260200702b0200062c0200
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -862,11 +862,11 @@ MonoBehaviour:
       displayed: 0
       id: Scene View/Particles
       index: 6
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 24, y: 0}
+      snapOffset: {x: 24, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -1080,9 +1080,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 8.945353, y: -3.5691648, z: -8.284622}
+    m_Target: {x: 15.869196, y: -19.394228, z: 9.682144}
     speed: 2
-    m_Value: {x: 8.945353, y: -3.5691648, z: -8.284622}
+    m_Value: {x: 15.869196, y: -19.394228, z: 9.682144}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1128,13 +1128,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.08170365, y: 0.8972609, z: -0.18731703, w: 0.39136624}
+    m_Target: {x: -0.35029644, y: -0.4589787, z: 0.20333637, w: -0.79077107}
     speed: 2
-    m_Value: {x: 0.08147849, y: 0.89772636, z: -0.1874142, w: 0.39028773}
+    m_Value: {x: -0.35029054, y: -0.458971, z: 0.20333296, w: -0.7907578}
   m_Size:
-    m_Target: 7.5686045
+    m_Target: 18.557955
     speed: 2
-    m_Value: 7.9252405
+    m_Value: 18.557955
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1234,7 +1234,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -1263,7 +1263,7 @@ MonoBehaviour:
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
-  m_XRRenderMode: 0
+  m_XRRenderMode: -1
   m_RenderTexture: {fileID: 0}
 --- !u!114 &18
 MonoBehaviour:
