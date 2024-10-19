@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/Samples/XR Interaction Toolkit/3.0.5/Starter Assets/DemoScene.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
