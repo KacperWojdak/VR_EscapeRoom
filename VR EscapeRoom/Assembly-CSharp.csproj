@@ -1385,10 +1385,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="UltimateXR.csproj">
-      <Project>{E70B38AA-A8C4-49AA-AA50-CBADBA1F6730}</Project>
-      <Name>UltimateXR</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj">
       <Project>{2112C6FA-A715-6E2D-8FD6-7A20C58E898E}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</Name>
@@ -1396,14 +1392,6 @@
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
       <Project>{06A8BF77-91F7-413C-B74C-1D8DE24D5617}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
-    </ProjectReference>
-    <ProjectReference Include="UltimateXR.Examples.csproj">
-      <Project>{1BC70BAD-CD97-CD3F-85D9-99C0A4B01002}</Project>
-      <Name>UltimateXR.Examples</Name>
-    </ProjectReference>
-    <ProjectReference Include="UltimateXR.Editor.csproj">
-      <Project>{6D0110B0-E58F-D7EA-B352-B7731C25613D}</Project>
-      <Name>UltimateXR.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
