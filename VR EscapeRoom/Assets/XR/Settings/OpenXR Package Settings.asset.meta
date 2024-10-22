@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 65321fe4163b1724490559357d42bbf3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 190173
+  packageName: Stereo Portals VR
+  packageVersion: 1.0.1
+  assetPath: Assets/XR/Settings/OpenXR Package Settings.asset
+  uploadId: 650798

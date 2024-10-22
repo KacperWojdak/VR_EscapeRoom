@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d7416b241241c774aa971505cac765a8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 190173
+  packageName: Stereo Portals VR
+  packageVersion: 1.0.1
+  assetPath: Assets/StereoPortalsVR/Prefabs/VRPlayer.prefab
+  uploadId: 650798

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6b5c6bf0e2f2a85499bf40f94ab443b9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 190173
+  packageName: Stereo Portals VR
+  packageVersion: 1.0.1
+  assetPath: Assets/XR/Settings/OculusSettings.asset
+  uploadId: 650798

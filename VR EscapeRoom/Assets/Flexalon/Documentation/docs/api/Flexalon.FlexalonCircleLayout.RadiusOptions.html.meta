@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 80bc7f152d7d0534caf42069372c1174
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 253638
+  packageName: 'Flexalon: 3D Grid Layout (Free)'
+  packageVersion: 4.2.1
+  assetPath: Assets/Flexalon/Documentation/docs/api/Flexalon.FlexalonCircleLayout.RadiusOptions.html
+  uploadId: 684592

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 51daa9284d8cf034ba21fe5c6c49d3eb
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 287100
+  packageName: UI Toolkit Circular Bar
+  packageVersion: 1.1.2
+  assetPath: Assets/CircularBar/Readme.md
+  uploadId: 695609

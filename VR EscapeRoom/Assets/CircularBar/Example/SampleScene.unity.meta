@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4efd516f4f11c234d9ab5d7bea39e891
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 287100
+  packageName: UI Toolkit Circular Bar
+  packageVersion: 1.1.2
+  assetPath: Assets/CircularBar/Example/SampleScene.unity
+  uploadId: 695609

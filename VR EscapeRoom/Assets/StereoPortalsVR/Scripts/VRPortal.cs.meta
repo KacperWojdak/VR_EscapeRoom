@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 63942196970d15e4aaf6b669d61d44ad
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 190173
+  packageName: Stereo Portals VR
+  packageVersion: 1.0.1
+  assetPath: Assets/StereoPortalsVR/Scripts/VRPortal.cs
+  uploadId: 650798

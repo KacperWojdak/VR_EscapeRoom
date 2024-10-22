@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4cde80089f013124ebb8e574791aef1d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 253638
+  packageName: 'Flexalon: 3D Grid Layout (Free)'
+  packageVersion: 4.2.1
+  assetPath: Assets/Flexalon/Samples/Materials/FlexalonSampleWhiteHDRP.mat
+  uploadId: 684592

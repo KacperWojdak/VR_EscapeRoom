@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 02247b962b5f7624e9938e805feec79d
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 253638
+  packageName: 'Flexalon: 3D Grid Layout (Free)'
+  packageVersion: 4.2.1
+  assetPath: Assets/Flexalon/Samples/Scenes/3D/CustomLayoutSample.unity
+  uploadId: 684592

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 05072efc20f775449bd978ffe4f40ef1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 287100
+  packageName: UI Toolkit Circular Bar
+  packageVersion: 1.1.2
+  assetPath: Assets/CircularBar/CircularBar.cs
+  uploadId: 695609

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b89f2cb6baddae94d828536c8bfc9a1b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 253638
+  packageName: 'Flexalon: 3D Grid Layout (Free)'
+  packageVersion: 4.2.1
+  assetPath: Assets/Flexalon/Samples/Prefabs/TextPrefab.prefab
+  uploadId: 684592

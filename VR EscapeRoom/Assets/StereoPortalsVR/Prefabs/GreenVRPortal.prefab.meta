@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a26674387e59a774c95af3465756a3eb
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 190173
+  packageName: Stereo Portals VR
+  packageVersion: 1.0.1
+  assetPath: Assets/StereoPortalsVR/Prefabs/GreenVRPortal.prefab
+  uploadId: 650798

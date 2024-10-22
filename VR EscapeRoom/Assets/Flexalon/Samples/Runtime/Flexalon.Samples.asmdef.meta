@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6a409ca51bfe219479ef9e180ac30e85
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 253638
+  packageName: 'Flexalon: 3D Grid Layout (Free)'
+  packageVersion: 4.2.1
+  assetPath: Assets/Flexalon/Samples/Runtime/Flexalon.Samples.asmdef
+  uploadId: 684592

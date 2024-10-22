@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: be76380496319ad4ba07a242748c4e15
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 253638
+  packageName: 'Flexalon: 3D Grid Layout (Free)'
+  packageVersion: 4.2.1
+  assetPath: Assets/Flexalon/Documentation/docs/coreConcepts.html
+  uploadId: 684592

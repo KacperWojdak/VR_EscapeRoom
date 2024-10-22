@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3809712f013388345820d15b8a1a48d1
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 253638
+  packageName: 'Flexalon: 3D Grid Layout (Free)'
+  packageVersion: 4.2.1
+  assetPath: Assets/Flexalon/Documentation/docs/api/Flexalon.Editor.FlexalonCircleLayoutEditor.html
+  uploadId: 684592

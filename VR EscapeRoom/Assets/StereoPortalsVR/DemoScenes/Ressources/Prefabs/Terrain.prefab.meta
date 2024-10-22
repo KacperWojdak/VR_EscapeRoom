@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e2764ed91b6cc0a40a5a3d9eb95fe5cd
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 190173
+  packageName: Stereo Portals VR
+  packageVersion: 1.0.1
+  assetPath: Assets/StereoPortalsVR/DemoScenes/Ressources/Prefabs/Terrain.prefab
+  uploadId: 650798
