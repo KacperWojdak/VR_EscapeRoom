@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 96ab39e2e2da7ca489c1a6fbbf19deda
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 190173
+  packageName: Stereo Portals VR
+  packageVersion: 1.0.1
+  assetPath: Assets/StereoPortalsVR/DemoScenes/RotationDemo.unity
+  uploadId: 650798

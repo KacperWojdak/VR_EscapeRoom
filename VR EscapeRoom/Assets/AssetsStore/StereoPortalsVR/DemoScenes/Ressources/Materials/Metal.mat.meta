@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 31d56801fc3e2ec4f82181d483a58b7a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 190173
+  packageName: Stereo Portals VR
+  packageVersion: 1.0.1
+  assetPath: Assets/StereoPortalsVR/DemoScenes/Ressources/Materials/Metal.mat
+  uploadId: 650798
