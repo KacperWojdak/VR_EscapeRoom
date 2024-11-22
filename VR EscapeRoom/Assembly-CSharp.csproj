@@ -69,6 +69,7 @@
     <Compile Include="Assets\AssetStore\Missing Reference Finder\MissingReferenceFinder.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\RayAttachModifier.cs" />
     <Compile Include="Assets\AssetStore\StereoPortalsVR\Scripts\VRPortal.cs" />
+    <Compile Include="Assets\EscapeRoom\Scripts\MenuUI.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\XRPokeFollowAffordanceFill.cs" />
     <Compile Include="Assets\AssetStore\Keypad\Scripts\KeypadButton.cs" />
     <Compile Include="Assets\AssetStore\StereoPortalsVR\Scripts\VRMirror.cs" />
