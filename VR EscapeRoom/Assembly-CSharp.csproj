@@ -83,6 +83,7 @@
     <Compile Include="Assets\VRTemplateAssets\Scripts\Callout.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\CalloutGazeController.cs" />
     <Compile Include="Assets\AssetStore\Keypad\Scripts\Keypad.cs" />
+    <Compile Include="Assets\EscapeRoom\Scripts\Flashlight.cs" />
     <Compile Include="Assets\AssetStore\Keypad\Scripts\SlidingDoor.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\StepManager.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\AnchorVisuals.cs" />
