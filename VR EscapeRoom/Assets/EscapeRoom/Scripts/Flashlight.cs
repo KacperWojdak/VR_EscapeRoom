@@ -2,12 +2,15 @@ using UnityEngine;
 
 public class Flashlight : MonoBehaviour
 {
-    public new Light light;
+    public Light flashlightLight;
     public bool isOn = false;
 
     private void Update()
     {
-        GetComponent<Light>().enabled = isOn;
+        if (flashlightLight != null)
+        {
+            flashlightLight.enabled = isOn;
+        }
     }
 
     public void ToggleLight()
