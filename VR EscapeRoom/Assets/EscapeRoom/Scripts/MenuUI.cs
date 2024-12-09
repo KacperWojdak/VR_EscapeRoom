@@ -5,7 +5,7 @@ public class MenuUI : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("DemoScene");
+        SceneManager.LoadScene("GameScene");
     }
 
     public void ExitGame()
