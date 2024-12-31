@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\kacpe\\Desktop\\VR_EscapeRoom\\VR EscapeRoom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|c:\\users\\kacpe\\desktop\\vr_escaperoom\\vr escaperoom\\assets\\escaperoom\\scripts\\pedestral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|solutionrelative:assets\\escaperoom\\scripts\\pedestral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|c:\\users\\kacpe\\desktop\\vr_escaperoom\\vr escaperoom\\assets\\escaperoom\\scripts\\pedestal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|solutionrelative:assets\\escaperoom\\scripts\\pedestal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|C:\\Users\\kacpe\\Desktop\\VR_EscapeRoom\\VR EscapeRoom\\assets\\escaperoom\\scripts\\automaticdoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,14 +35,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Pedestral.cs",
-              "DocumentMoniker": "C:\\Users\\kacpe\\Desktop\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\Pedestral.cs",
-              "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\Pedestral.cs",
-              "ToolTip": "C:\\Users\\kacpe\\Desktop\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\Pedestral.cs",
-              "RelativeToolTip": "Assets\\EscapeRoom\\Scripts\\Pedestral.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "Title": "Pedestal.cs",
+              "DocumentMoniker": "C:\\Users\\kacpe\\Desktop\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\Pedestal.cs",
+              "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\Pedestal.cs",
+              "ToolTip": "C:\\Users\\kacpe\\Desktop\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\Pedestal.cs",
+              "RelativeToolTip": "Assets\\EscapeRoom\\Scripts\\Pedestal.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T13:55:47.715Z",
+              "WhenOpened": "2024-12-30T13:57:04.245Z",
               "EditorCaption": ""
             },
             {
@@ -53,9 +53,10 @@
               "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\AutomaticDoor.cs",
               "ToolTip": "C:\\Users\\kacpe\\Desktop\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\AutomaticDoor.cs",
               "RelativeToolTip": "Assets\\EscapeRoom\\Scripts\\AutomaticDoor.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAABBwEQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T14:14:05.694Z"
+              "WhenOpened": "2024-12-20T14:14:05.694Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
