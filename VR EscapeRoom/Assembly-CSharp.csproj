@@ -69,12 +69,10 @@
     <Compile Include="Assets\VRTemplateAssets\Scripts\BooleanToggleVisualsController.cs" />
     <Compile Include="Assets\AssetStore\Missing Reference Finder\MissingReferenceFinder.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\RayAttachModifier.cs" />
-    <Compile Include="Assets\AssetStore\StereoPortalsVR\Scripts\VRPortal.cs" />
     <Compile Include="Assets\EscapeRoom\Scripts\AutomaticDoor.cs" />
     <Compile Include="Assets\EscapeRoom\Scripts\MenuUI.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\XRPokeFollowAffordanceFill.cs" />
     <Compile Include="Assets\AssetStore\Keypad\Scripts\KeypadButton.cs" />
-    <Compile Include="Assets\AssetStore\StereoPortalsVR\Scripts\VRMirror.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\BezierCurve.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\LaunchProjectile.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTween.cs" />
@@ -84,7 +82,6 @@
     <Compile Include="Assets\VRTemplateAssets\Scripts\DestroyObject.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\VideoTimeScrubControl.cs" />
     <Compile Include="Assets\AssetStore\Keypad\Scripts\KeypadInteractionFPV.cs" />
-    <Compile Include="Assets\AssetStore\StereoPortalsVR\Scripts\HMD.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\Callout.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTweenExt.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\CalloutGazeController.cs" />

@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -417,11 +417,11 @@ MonoBehaviour:
       displayed: 0
       id: Scene View/Light Settings
       index: 0
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 24, y: 0}
+      snapOffset: {x: 24, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -641,12 +641,12 @@ MonoBehaviour:
       displayed: 1
       id: unity-scene-view-camera-mode-toolbar
       index: 1
-      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-470.39996337890627,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":1,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
-      snapOffset: {x: 24, y: 0}
+      snapOffset: {x: -470.39996, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
+      snapCorner: 1
       layout: 1
       size: {x: 0, y: 0}
       sizeOverridden: 0
@@ -683,11 +683,11 @@ MonoBehaviour:
       displayed: 0
       id: Scene View/Lighting Visualization Colors
       index: 0
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 24, y: 0}
+      snapOffset: {x: 24, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -748,6 +748,20 @@ MonoBehaviour:
       layout: 4
       size: {x: 0, y: 0}
       sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 1
+      id: UnityEditor.LightProbeGroupOverlay
+      index: 12
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 24, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
     m_ContainerData:
     - containerId: overlay-toolbar__top
       scrollOffset: 0
@@ -775,9 +789,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -20.569242, y: -3.837036, z: 12.941506}
+    m_Target: {x: 2.3690684, y: 1.3635501, z: 1.1666648}
     speed: 2
-    m_Value: {x: -20.569288, y: -3.8370514, z: 12.941505}
+    m_Value: {x: 2.3727846, y: 1.3645214, z: 1.1660504}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -823,13 +837,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.1515154, y: -0.5200584, z: 0.094278716, w: 0.8353906}
+    m_Target: {x: -0.21872959, y: 0.19297022, z: -0.044238903, w: -0.955748}
     speed: 2
-    m_Value: {x: 0.14938477, y: -0.52123785, z: 0.09320076, w: 0.8350502}
+    m_Value: {x: -0.21982226, y: 0.19286956, z: -0.044459727, w: -0.95525014}
   m_Size:
-    m_Target: 10.290855
+    m_Target: 0.8660254
     speed: 2
-    m_Value: 9.847709
+    m_Value: 0.8660254
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -847,7 +861,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+  m_LastSceneViewRotation: {x: -0.13348247, y: 0.48971325, z: -0.0760137, w: -0.8584107}
   m_LastSceneViewOrtho: 0
   m_Viewpoint:
     m_SceneView: {fileID: 12}
@@ -899,9 +913,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 3ae6fdff
-      m_LastClickedID: -137670
-      m_ExpandedIDs: b4caffffb07a0100ce7a0100027b0100
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: e8f6ffff5cf7ffffd6f9ffffe0f9fffff2c6000042c70000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -995,7 +1009,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -1073,7 +1087,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/EscapeRoom
+    - Assets/AssetStore/8K Skybox Pack Free/Skyboxes/Material
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1083,16 +1097,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/EscapeRoom
+  - Assets/AssetStore/8K Skybox Pack Free/Skyboxes/Material
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\kacpe\Desktop\VR_EscapeRoom\VR EscapeRoom
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 2239}
-    m_SelectedIDs: dc9d0100
-    m_LastClickedID: 105948
-    m_ExpandedIDs: 00000000389d01003a9d01003c9d01003e9d0100409d0100429d0100449d0100469d0100489d01004a9d01004c9d01004e9d0100509d0100529d0100549d0100569d0100589d01005a9d01005c9d01005e9d0100609d0100629d0100649d0100669d0100689d01006a9d01006c9d01006e9d0100709d0100729d0100749d0100769d0100789d01007a9d01007c9d01007e9d0100809d0100829d0100849d0100869d0100889d01008a9d01008c9d01008e9d0100909d0100929d0100949d0100969d0100989d01009a9d01009c9d01009e9d0100a09d0100a29d0100a49d0100a69d0100a89d0100aa9d0100ac9d0100ae9d0100b09d0100b29d0100b49d0100b69d0100b89d0100ba9d0100bc9d0100be9d0100c09d0100c29d0100c49d0100c69d0100c89d0100ca9d0100cc9d0100ce9d0100d09d0100d29d0100d49d0100d69d0100d89d0100da9d0100dc9d0100de9d0100e09d0100e29d0100e49d0100e69d0100e89d0100ea9d0100ec9d0100ee9d010076a3010000ca9a3b
+    scrollPos: {x: 0, y: 8.400024}
+    m_SelectedIDs: 20900100
+    m_LastClickedID: 102432
+    m_ExpandedIDs: 000000001a7c01001c7c01001e7c0100207c0100227c0100247c0100267c0100287c01002a7c01002c7c01002e7c0100307c0100327c0100347c0100367c0100387c01003a7c01003c7c01003e7c0100407c0100427c0100447c0100467c0100487c01004a7c01004c7c01004e7c0100507c0100527c0100547c0100567c0100587c01005a7c01005c7c01005e7c0100607c0100627c0100647c0100667c0100687c01006a7c01006c7c01006e7c0100707c0100727c0100747c0100767c0100787c01007a7c01007c7c01007e7c0100807c0100827c0100847c0100867c0100887c01008a7c01008c7c01008e7c0100907c0100927c0100947c0100967c0100987c01009a7c01009c7c01009e7c0100a07c0100a27c0100a47c0100a67c0100a87c0100aa7c0100ac7c0100ae7c0100b07c0100b27c0100b47c0100b67c0100b87c0100ba7c0100bc7c0100be7c0100c07c0100c27c0100c47c0100c67c0100c87c0100ca7c0100cc7c0100ce7c0100d07c0100fe810100008201002490010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1121,7 +1135,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000389d01003a9d01003c9d01003e9d0100409d0100429d0100449d0100469d0100489d01004a9d01004c9d01004e9d0100509d0100529d0100549d0100569d0100589d01005a9d01005c9d01005e9d0100609d0100629d0100649d0100669d0100689d01006a9d01006c9d01006e9d0100709d0100729d0100749d0100769d0100789d01007a9d01007c9d01007e9d0100809d0100829d0100849d0100869d0100889d01008a9d01008c9d01008e9d0100909d0100929d0100949d0100969d0100989d01009a9d01009c9d01009e9d0100a09d0100a29d0100a49d0100a69d0100a89d0100aa9d0100ac9d0100ae9d0100b09d0100b29d0100b49d0100b69d0100b89d0100ba9d0100bc9d0100be9d0100c09d0100c29d0100c49d0100c69d0100c89d0100ca9d0100cc9d0100ce9d0100d09d0100d29d0100d49d0100d69d0100d89d0100da9d0100dc9d0100de9d0100e09d0100e29d0100e49d0100e69d0100e89d0100ea9d0100ec9d0100ee9d0100
+    m_ExpandedIDs: 000000001a7c01001c7c01001e7c0100207c0100227c0100247c0100267c0100287c01002a7c01002c7c01002e7c0100307c0100327c0100347c0100367c0100387c01003a7c01003c7c01003e7c0100407c0100427c0100447c0100467c0100487c01004a7c01004c7c01004e7c0100507c0100527c0100547c0100567c0100587c01005a7c01005c7c01005e7c0100607c0100627c0100647c0100667c0100687c01006a7c01006c7c01006e7c0100707c0100727c0100747c0100767c0100787c01007a7c01007c7c01007e7c0100807c0100827c0100847c0100867c0100887c01008a7c01008c7c01008e7c0100907c0100927c0100947c0100967c0100987c01009a7c01009c7c01009e7c0100a07c0100a27c0100a47c0100a67c0100a87c0100aa7c0100ac7c0100ae7c0100b07c0100b27c0100b47c0100b67c0100b87c0100ba7c0100bc7c0100be7c0100c07c0100c27c0100c47c0100c67c0100c87c0100ca7c0100cc7c0100ce7c0100d07c0100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
