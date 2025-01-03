@@ -53,7 +53,6 @@ public class RiddlePedestal : MonoBehaviour
                 StartLevitation(item);
 
                 UpdateLightColor();
-                Debug.Log($"Przedmiot {item.name} został poprawnie umieszczony na piedestale.");
             });
     }
 

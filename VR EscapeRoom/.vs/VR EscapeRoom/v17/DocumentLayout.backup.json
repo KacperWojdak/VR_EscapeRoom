@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\kacpe\\Desktop\\VR_EscapeRoom\\VR EscapeRoom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|c:\\users\\kacpe\\desktop\\vr_escaperoom\\vr escaperoom\\assets\\escaperoom\\scripts\\pedestal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|c:\\users\\kacpe\\desktop\\vr_escaperoom\\vr escaperoom\\assets\\escaperoom\\scripts\\scrollreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|solutionrelative:assets\\escaperoom\\scripts\\scrollreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|C:\\Users\\kacpe\\Desktop\\VR_EscapeRoom\\VR EscapeRoom\\assets\\escaperoom\\scripts\\pedestal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|solutionrelative:assets\\escaperoom\\scripts\\pedestal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,19 +39,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ScrollReset.cs",
+              "DocumentMoniker": "C:\\Users\\kacpe\\Desktop\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\ScrollReset.cs",
+              "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\ScrollReset.cs",
+              "ToolTip": "C:\\Users\\kacpe\\Desktop\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\ScrollReset.cs",
+              "RelativeToolTip": "Assets\\EscapeRoom\\Scripts\\ScrollReset.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAQwDAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T14:15:27.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Pedestal.cs",
               "DocumentMoniker": "C:\\Users\\kacpe\\Desktop\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\Pedestal.cs",
               "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\Pedestal.cs",
               "ToolTip": "C:\\Users\\kacpe\\Desktop\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\Pedestal.cs",
               "RelativeToolTip": "Assets\\EscapeRoom\\Scripts\\Pedestal.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAFAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADIAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-30T13:57:04.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AutomaticDoor.cs",
               "DocumentMoniker": "C:\\Users\\kacpe\\Desktop\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\AutomaticDoor.cs",
               "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\AutomaticDoor.cs",
@@ -59,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Flashlight.cs",
               "DocumentMoniker": "C:\\Users\\kacpe\\Desktop\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\Flashlight.cs",
               "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\Flashlight.cs",
@@ -71,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Screenshot.cs",
               "DocumentMoniker": "C:\\Users\\kacpe\\Desktop\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\Screenshot.cs",
               "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\Screenshot.cs",
@@ -83,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MenuUI.cs",
               "DocumentMoniker": "C:\\Users\\kacpe\\Desktop\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\MenuUI.cs",
               "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\MenuUI.cs",

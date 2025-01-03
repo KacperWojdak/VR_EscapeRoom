@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Anchor
   - Star
+  - Candle
+  - Lightbulb
+  - Book
+  - Plant
+  - InkBottle
   layers:
   - Default
   - TransparentFX
