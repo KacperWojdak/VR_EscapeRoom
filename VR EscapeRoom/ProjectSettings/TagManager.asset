@@ -11,6 +11,7 @@ TagManager:
   - Book
   - Plant
   - InkBottle
+  - XRController
   layers:
   - Default
   - TransparentFX

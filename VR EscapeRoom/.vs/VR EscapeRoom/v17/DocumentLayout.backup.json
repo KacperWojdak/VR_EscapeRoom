@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\kacpe\\Desktop\\VR_EscapeRoom\\VR EscapeRoom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|c:\\users\\kacpe\\desktop\\vr_escaperoom\\vr escaperoom\\assets\\escaperoom\\scripts\\scrollreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|solutionrelative:assets\\escaperoom\\scripts\\scrollreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|c:\\users\\kacpe\\desktop\\vr_escaperoom\\vr escaperoom\\assets\\escaperoom\\scripts\\sphereinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|solutionrelative:assets\\escaperoom\\scripts\\sphereinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|C:\\Users\\kacpe\\Desktop\\VR_EscapeRoom\\VR EscapeRoom\\assets\\escaperoom\\scripts\\pedestal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|c:\\users\\kacpe\\desktop\\vr_escaperoom\\vr escaperoom\\assets\\escaperoom\\scripts\\pedestal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|solutionrelative:assets\\escaperoom\\scripts\\pedestal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -39,14 +39,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ScrollReset.cs",
-              "DocumentMoniker": "C:\\Users\\kacpe\\Desktop\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\ScrollReset.cs",
-              "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\ScrollReset.cs",
-              "ToolTip": "C:\\Users\\kacpe\\Desktop\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\ScrollReset.cs",
-              "RelativeToolTip": "Assets\\EscapeRoom\\Scripts\\ScrollReset.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAQwDAAAAARAAAAAAAAAA==",
+              "Title": "SphereInteraction.cs",
+              "DocumentMoniker": "C:\\Users\\kacpe\\Desktop\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\SphereInteraction.cs",
+              "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\SphereInteraction.cs",
+              "ToolTip": "C:\\Users\\kacpe\\Desktop\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\SphereInteraction.cs",
+              "RelativeToolTip": "Assets\\EscapeRoom\\Scripts\\SphereInteraction.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T14:15:27.194Z",
+              "WhenOpened": "2025-01-21T10:25:59.721Z",
               "EditorCaption": ""
             },
             {
@@ -57,7 +57,7 @@
               "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\Pedestal.cs",
               "ToolTip": "C:\\Users\\kacpe\\Desktop\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\Pedestal.cs",
               "RelativeToolTip": "Assets\\EscapeRoom\\Scripts\\Pedestal.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADIAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAABBwDIAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-30T13:57:04.245Z",
               "EditorCaption": ""
