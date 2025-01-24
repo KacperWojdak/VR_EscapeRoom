@@ -1,79 +1,44 @@
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
+using UnityEngine.XR.Interaction.Toolkit.Locomotion.Climbing;
 
 public class SphereInteraction : MonoBehaviour
 {
-    public Material defaultMaterial;
-    public Material highlightMaterial;
-    public float highlightDistance = 2.0f;
-    public Transform playerTransform;
-
     private XRGrabInteractable grabInteractable;
-    private Renderer sphereRenderer;
-    private bool isInteractableAdded = false;
 
     private void Start()
     {
-        sphereRenderer = GetComponent<Renderer>();
-        if (sphereRenderer != null)
+        var climbInteractable = GetComponent<ClimbInteractable>();
+        if (climbInteractable != null)
         {
-            sphereRenderer.material = defaultMaterial;
+            Destroy(climbInteractable);
         }
+
+        grabInteractable = gameObject.AddComponent<XRGrabInteractable>();
+
+        Rigidbody rb = GetComponent<Rigidbody>();
+        if (rb == null)
+        {
+            rb = gameObject.AddComponent<Rigidbody>();
+        }
+        rb.useGravity = true;
+        rb.isKinematic = true;
+        rb.interpolation = RigidbodyInterpolation.Interpolate;
+
+        grabInteractable.selectEntered.AddListener(OnGrabbed);
+        grabInteractable.selectExited.AddListener(OnReleased);
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnGrabbed(SelectEnterEventArgs args)
     {
-        if (other.CompareTag("Player") || other.CompareTag("XRController"))
-        {
-            AddGrabInteractable();
-        }
+        Rigidbody rb = GetComponent<Rigidbody>();
+        rb.isKinematic = false;
     }
 
-    private void OnTriggerExit(Collider other)
+    private void OnReleased(SelectExitEventArgs args)
     {
-        if (other.CompareTag("Player") || other.CompareTag("XRController"))
-        {
-            RemoveGrabInteractable();
-        }
-    }
-
-    private void Update()
-    {
-        if (isInteractableAdded && playerTransform != null)
-        {
-            float distance = Vector3.Distance(transform.position, playerTransform.position);
-
-            if (distance <= highlightDistance)
-            {
-                sphereRenderer.material = highlightMaterial;
-            }
-            else
-            {
-                sphereRenderer.material = defaultMaterial;
-            }
-        }
-    }
-
-    private void AddGrabInteractable()
-    {
-        if (!isInteractableAdded)
-        {
-            grabInteractable = gameObject.AddComponent<XRGrabInteractable>();
-            isInteractableAdded = true;
-        }
-    }
-
-    private void RemoveGrabInteractable()
-    {
-        if (isInteractableAdded && grabInteractable != null)
-        {
-            Destroy(grabInteractable);
-            isInteractableAdded = false;
-
-            if (sphereRenderer != null)
-            {
-                sphereRenderer.material = defaultMaterial;
-            }
-        }
+        Rigidbody rb = GetComponent<Rigidbody>();
+        rb.isKinematic = true;
     }
 }

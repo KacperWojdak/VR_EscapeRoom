@@ -1,14 +1,26 @@
 using UnityEngine;
 
-public class SphereWithText : MonoBehaviour
+public class TextToSphere : MonoBehaviour
 {
     public Transform textObject;
     public float offsetFromSphere = 0.1f;
 
+    private Vector3 initialLocalPosition;
+    private Quaternion initialLocalRotation;
+
+    void Start()
+    {
+        if (textObject != null)
+        {
+            initialLocalPosition = textObject.localPosition;
+            initialLocalRotation = textObject.localRotation;
+        }
+    }
+
     void Update()
     {
-        Vector3 direction = (textObject.position - transform.position).normalized;
-        textObject.position = transform.position + direction * (transform.localScale.x / 2 + offsetFromSphere);
-        textObject.LookAt(transform.position);
+        if (textObject == null) return;
+
+        textObject.SetLocalPositionAndRotation(initialLocalPosition, initialLocalRotation);
     }
 }
