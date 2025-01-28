@@ -1,31 +1,22 @@
 using UnityEngine.UI;
+using static PlasticPipe.PlasticProtocol.Client.ConnectionCreator.PlasticProtoSocketConnection;
 
 namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
 {
-    /// <summary>
-    /// Add this component to a GameObject and call the <see cref="IncrementText"/> method
-    /// in response to a Unity Event to update a text display to count up with each event.
-    /// </summary>
     public class IncrementUIText : MonoBehaviour
     {
         [SerializeField]
-        [Tooltip("The Text component this behavior uses to display the incremented value.")]
-        Text m_Text;
+        [Tooltip("The Text component this behavior uses to display the value.")]
+        private Text m_Text;
 
-        /// <summary>
-        /// The Text component this behavior uses to display the incremented value.
-        /// </summary>
         public Text text
         {
             get => m_Text;
             set => m_Text = value;
         }
 
-        int m_Count;
+        private int m_Count;
 
-        /// <summary>
-        /// See <see cref="MonoBehaviour"/>.
-        /// </summary>
         protected void Awake()
         {
             if (m_Text == null)
@@ -33,13 +24,43 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
         }
 
         /// <summary>
-        /// Increment the string message of the Text component.
+        /// Increment the value and update the UI.
         /// </summary>
         public void IncrementText()
         {
-            m_Count += 1;
+            m_Count = (m_Count + 1) % 10;
+            UpdateText();
+            ResetTextColor();
+        }
+
+        /// <summary>
+        /// Decrement the value and update the UI.
+        /// </summary>
+        public void DecrementText()
+        {
+            m_Count = (m_Count - 1 + 10) % 10;
+            UpdateText();
+            ResetTextColor();
+        }
+
+        /// <summary>
+        /// Update the Text component with the current value.
+        /// </summary>
+        private void UpdateText()
+        {
             if (m_Text != null)
                 m_Text.text = m_Count.ToString();
+        }
+
+        /// <summary>
+        /// Reset the text color to white.
+        /// </summary>
+        private void ResetTextColor()
+        {
+            if (m_Text != null)
+            {
+                m_Text.color = Color.white;
+            }
         }
     }
 }

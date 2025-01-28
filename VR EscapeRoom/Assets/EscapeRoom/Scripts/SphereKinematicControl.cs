@@ -9,7 +9,7 @@ public class SphereKinematicControl : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        rb.isKinematic = true; // Pocz¹tkowy stan kinematyczny
+        rb.isKinematic = true;
 
         var interactable = GetComponent<XRGrabInteractable>();
         if (interactable)
@@ -21,11 +21,11 @@ public class SphereKinematicControl : MonoBehaviour
 
     void OnGrab(SelectEnterEventArgs args)
     {
-        rb.isKinematic = false; // Wy³¹czenie kinematyki przy podniesieniu
+        rb.isKinematic = false;
     }
 
     void OnRelease(SelectExitEventArgs args)
     {
-        rb.isKinematic = false; // Upewnij siê, ¿e fizyka dzia³a po zwolnieniu
+        rb.isKinematic = false;
     }
 }

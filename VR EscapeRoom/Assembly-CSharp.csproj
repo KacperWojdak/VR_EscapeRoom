@@ -67,6 +67,7 @@
     <Compile Include="Assets\VRTemplateAssets\Scripts\Rotator.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\XRKnob.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\BooleanToggleVisualsController.cs" />
+    <Compile Include="Assets\EscapeRoom\Scripts\CheckNumbers.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\RayAttachModifier.cs" />
     <Compile Include="Assets\EscapeRoom\Scripts\AutomaticDoor.cs" />
     <Compile Include="Assets\EscapeRoom\Scripts\MenuUI.cs" />
@@ -90,7 +91,6 @@
     <Compile Include="Assets\LeanTween\Framework\LTDescrOptional.cs" />
     <Compile Include="Assets\AssetStore\Keypad\Scripts\Keypad.cs" />
     <Compile Include="Assets\LeanTween\Framework\LTDescr.cs" />
-    <Compile Include="Assets\EscapeRoom\Scripts\Flashlight.cs" />
     <Compile Include="Assets\AssetStore\Keypad\Scripts\SlidingDoor.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\StepManager.cs" />
     <Compile Include="Assets\LeanTween\Framework\LTSeq.cs" />
@@ -1263,6 +1263,14 @@
       <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.007.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.VisualEffectGraph.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualEffectGraph.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Collections.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Collections.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1421,17 +1429,13 @@
       <Project>{06A8BF77-91F7-413C-B74C-1D8DE24D5617}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VisualEffectGraph.Runtime.csproj">
-      <Project>{60FDA27E-F89D-6418-D34C-2564CC8E66C6}</Project>
-      <Name>Unity.VisualEffectGraph.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualEffectGraph.Editor.csproj">
-      <Project>{CCACA4D6-B859-530F-3E25-476A31A94C55}</Project>
-      <Name>Unity.VisualEffectGraph.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="UltimateXR.Examples.csproj">
       <Project>{1BC70BAD-CD97-CD3F-85D9-99C0A4B01002}</Project>
       <Name>UltimateXR.Examples</Name>
+    </ProjectReference>
+    <ProjectReference Include="OccaSoftware.Fireworks.Runtime.csproj">
+      <Project>{8B3C3404-0FBC-59B0-43AE-6DFFFF98679C}</Project>
+      <Name>OccaSoftware.Fireworks.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="UltimateXR.Editor.csproj">
       <Project>{6D0110B0-E58F-D7EA-B352-B7731C25613D}</Project>
