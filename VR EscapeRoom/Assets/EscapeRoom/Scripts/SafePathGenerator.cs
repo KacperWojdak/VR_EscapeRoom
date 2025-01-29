@@ -25,7 +25,6 @@ public class SafePathGenerator : MonoBehaviour
         {
             if (index >= gridSizeX * gridSizeZ)
             {
-                Debug.LogWarning("Too many tiles for the specified grid size.");
                 break;
             }
 
@@ -35,11 +34,6 @@ public class SafePathGenerator : MonoBehaviour
             if (tile.TryGetComponent<TileInteraction>(out var tileScript))
             {
                 tileGrid[x, z] = tileScript;
-                Debug.Log($"Tile assigned at grid position: ({x}, {z})");
-            }
-            else
-            {
-                Debug.LogWarning($"Tile at index {index} is missing the TileInteraction component.");
             }
             index++;
         }
