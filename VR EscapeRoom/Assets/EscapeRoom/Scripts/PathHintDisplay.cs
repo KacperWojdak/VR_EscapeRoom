@@ -5,15 +5,17 @@ public class PathHintDisplay : MonoBehaviour
 {
     public SafePathGenerator pathGenerator;
     public Transform hintParent;
-    public Material safeMaterial;
-    public Material defaultMaterial;
+    public GameObject safeEffectPrefab;
+    public GameObject dangerEffectPrefab;
 
     private List<Renderer> hintTiles = new();
+    private List<GameObject> activeEffects = new();
 
     void Start()
     {
         if (hintParent == null)
         {
+            Debug.LogError("Hint parent is not assigned.");
             return;
         }
 
@@ -24,6 +26,7 @@ public class PathHintDisplay : MonoBehaviour
                 hintTiles.Add(tileRenderer);
             }
         }
+
         UpdateHint();
     }
 
@@ -31,18 +34,35 @@ public class PathHintDisplay : MonoBehaviour
     {
         if (pathGenerator == null || hintTiles.Count == 0 || pathGenerator.tileGrid == null)
         {
+            Debug.LogError("Path generator or tile grid not properly initialized.");
             return;
         }
+
+        foreach (var effect in activeEffects)
+        {
+            Destroy(effect);
+        }
+        activeEffects.Clear();
 
         for (int z = 0; z < pathGenerator.gridSizeZ; z++)
         {
             for (int x = 0; x < pathGenerator.gridSizeX; x++)
             {
                 int tileIndex = z * pathGenerator.gridSizeX + x;
+
                 if (tileIndex < hintTiles.Count && pathGenerator.tileGrid[x, z] != null)
                 {
                     bool isSafe = pathGenerator.tileGrid[x, z].isSafeTile;
-                    hintTiles[tileIndex].material = isSafe ? safeMaterial : defaultMaterial;
+
+                    GameObject effectPrefab = isSafe ? safeEffectPrefab : dangerEffectPrefab;
+                    if (effectPrefab != null)
+                    {
+                        Vector3 effectPosition = hintTiles[tileIndex].transform.position;
+                        effectPosition.y += 0.1f;
+
+                        var effectInstance = Instantiate(effectPrefab, effectPosition, Quaternion.identity, hintParent);
+                        activeEffects.Add(effectInstance);
+                    }
                 }
             }
         }

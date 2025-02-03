@@ -73,6 +73,7 @@
     <Compile Include="Assets\EscapeRoom\Scripts\MenuUI.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\XRPokeFollowAffordanceFill.cs" />
     <Compile Include="Assets\AssetStore\Keypad\Scripts\KeypadButton.cs" />
+    <Compile Include="Assets\EscapeRoom\Scripts\EnableButton.cs" />
     <Compile Include="Assets\EscapeRoom\Scripts\SafePathGenerator.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\BezierCurve.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\LaunchProjectile.cs" />
