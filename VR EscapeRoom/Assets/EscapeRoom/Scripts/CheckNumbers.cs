@@ -31,14 +31,5 @@ public class CheckNumbers : MonoBehaviour
                 minusButtons[i]?.SetActive(false);
             }
         }
-
-        if (isCorrect)
-        {
-            Debug.Log("Brawo! Wszystkie liczby s¹ poprawne!");
-        }
-        else
-        {
-            Debug.Log("Niestety, s¹ b³êdy. Spróbuj ponownie.");
-        }
     }
 }

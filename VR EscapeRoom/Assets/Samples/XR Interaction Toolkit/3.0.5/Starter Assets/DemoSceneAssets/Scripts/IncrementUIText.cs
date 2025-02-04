@@ -1,5 +1,4 @@
 using UnityEngine.UI;
-using static PlasticPipe.PlasticProtocol.Client.ConnectionCreator.PlasticProtoSocketConnection;
 
 namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
 {
@@ -17,15 +16,6 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
 
         private int m_Count;
 
-        protected void Awake()
-        {
-            if (m_Text == null)
-                Debug.LogWarning("Missing required Text component reference. Use the Inspector window to assign which Text component to increment.", this);
-        }
-
-        /// <summary>
-        /// Increment the value and update the UI.
-        /// </summary>
         public void IncrementText()
         {
             m_Count = (m_Count + 1) % 10;
@@ -33,9 +23,6 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
             ResetTextColor();
         }
 
-        /// <summary>
-        /// Decrement the value and update the UI.
-        /// </summary>
         public void DecrementText()
         {
             m_Count = (m_Count - 1 + 10) % 10;
@@ -43,24 +30,16 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
             ResetTextColor();
         }
 
-        /// <summary>
-        /// Update the Text component with the current value.
-        /// </summary>
         private void UpdateText()
         {
             if (m_Text != null)
                 m_Text.text = m_Count.ToString();
         }
 
-        /// <summary>
-        /// Reset the text color to white.
-        /// </summary>
         private void ResetTextColor()
         {
             if (m_Text != null)
-            {
                 m_Text.color = Color.white;
-            }
         }
     }
 }

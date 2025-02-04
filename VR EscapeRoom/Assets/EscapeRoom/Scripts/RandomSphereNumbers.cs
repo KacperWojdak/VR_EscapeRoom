@@ -22,13 +22,7 @@ public class RandomSphereNumbers : MonoBehaviour
 
                 var textComponent = sphere.GetComponentInChildren<TMPro.TextMeshPro>();
                 if (textComponent != null)
-                {
                     textComponent.text = $"{digit}.";
-                }
-                else
-                {
-                    Debug.LogWarning($"Brak komponentu TextMeshPro w kulce: {sphere.name}");
-                }
             }
         }
     }

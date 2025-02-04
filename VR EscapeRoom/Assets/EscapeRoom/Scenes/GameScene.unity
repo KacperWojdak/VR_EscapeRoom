@@ -3420,6 +3420,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isSafeTile: 0
   playerStartPosition: {fileID: 0}
+--- !u!1 &130344359
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 130344360}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &130344360
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130344359}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &130367855
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23672,6 +23703,7 @@ MonoBehaviour:
   pedestalLight: {fileID: 762728304}
   defaultLightColor: {r: 1, g: 1, b: 1, a: 1}
   correctLightColor: {r: 0, g: 1, b: 0, a: 1}
+  hasCorrectItem: 0
 --- !u!23 &1021371487
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -30832,6 +30864,7 @@ MonoBehaviour:
   - {fileID: 2042280259}
   - {fileID: 1048012041}
   - {fileID: 1927440626}
+  IsCombinationCorrect: 0
 --- !u!1001 &1308280794
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42042,6 +42075,7 @@ MonoBehaviour:
   pedestalLight: {fileID: 1464375683}
   defaultLightColor: {r: 1, g: 1, b: 1, a: 1}
   correctLightColor: {r: 0, g: 1, b: 0, a: 1}
+  hasCorrectItem: 0
 --- !u!1 &1786552406
 GameObject:
   m_ObjectHideFlags: 0
@@ -44247,6 +44281,7 @@ MonoBehaviour:
   pedestalLight: {fileID: 1078606243}
   defaultLightColor: {r: 1, g: 1, b: 1, a: 1}
   correctLightColor: {r: 0, g: 1, b: 0, a: 1}
+  hasCorrectItem: 0
 --- !u!23 &1889933568
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -48738,6 +48773,7 @@ MonoBehaviour:
   pedestalLight: {fileID: 1703132133}
   defaultLightColor: {r: 1, g: 1, b: 1, a: 1}
   correctLightColor: {r: 0, g: 1, b: 0, a: 1}
+  hasCorrectItem: 0
 --- !u!23 &2056363293
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -102211,3 +102247,4 @@ SceneRoots:
   - {fileID: 650427626}
   - {fileID: 1561126997}
   - {fileID: 1248418893}
+  - {fileID: 130344360}

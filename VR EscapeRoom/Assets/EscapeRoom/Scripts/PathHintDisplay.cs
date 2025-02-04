@@ -32,12 +32,6 @@ public class PathHintDisplay : MonoBehaviour
 
     void UpdateHint()
     {
-        if (pathGenerator == null || hintTiles.Count == 0 || pathGenerator.tileGrid == null)
-        {
-            Debug.LogError("Path generator or tile grid not properly initialized.");
-            return;
-        }
-
         foreach (var effect in activeEffects)
         {
             Destroy(effect);
