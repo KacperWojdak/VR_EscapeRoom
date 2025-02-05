@@ -1,79 +1,93 @@
 using UnityEngine;
-using System.Collections.Generic;
 
 public class GameManager : MonoBehaviour
 {
-    public List<Light> riddleRoomLights;
-    public List<Light> numbersRoomLights;
-    public List<Light> tilesRoomLights;
-
     public RiddlePedestal[] pedestals;
-    public CheckNumbers numberChecker;
-    public UnlockAllTiles tileUnlocker;
-
-    private bool riddleRoomComplete = false;
-    private bool numbersRoomComplete = false;
-    private bool tilesRoomComplete = false;
+    public Light[] riddlersDoorLights;
+    public Light[] finalDoorsLights;
+    public Color successColor = Color.green;
+    public float lowIntensity = 0.2f;
+    public float animationDuration = 1.0f;
 
     private void Update()
     {
-        CheckRiddleRoom();
-        CheckNumbersRoom();
-        CheckTilesRoom();
+        CheckRiddlesCompletion();
     }
 
-    private void CheckRiddleRoom()
+    private void Awake()
     {
-        if (!riddleRoomComplete)
+        LeanTween.init(800);
+    }
+
+    private void CheckRiddlesCompletion()
+    {
+        bool allCorrect = true;
+        foreach (var pedestal in pedestals)
         {
-            bool allCorrect = true;
-
-            foreach (var pedestal in pedestals)
+            if (!pedestal.hasCorrectItem)
             {
-                if (!pedestal.HasCorrectItem)
-                {
-                    allCorrect = false;
-                    break;
-                }
-            }
-
-            if (allCorrect)
-            {
-                riddleRoomComplete = true;
-                UpdateLights(riddleRoomLights, Color.green);
+                allCorrect = false;
+                break;
             }
         }
+
+        if (allCorrect)
+            ActivateSuccessLights();
     }
 
-    private void CheckNumbersRoom()
+    private void ActivateSuccessLights()
     {
-        if (!numbersRoomComplete && numberChecker.IsCombinationCorrect)
+        foreach (var light in riddlersDoorLights)
         {
-            numbersRoomComplete = true;
-            UpdateLights(numbersRoomLights, Color.green);
+            AnimateDoorLight(light);
+        }
+
+        if (finalDoorsLights.Length > 0)
+        {
+            Light lastLight = finalDoorsLights[^1];
+            AnimateSideLight(lastLight);
         }
     }
 
-    private void CheckTilesRoom()
+    private void AnimateDoorLight(Light riddlersDoorLights)
     {
-        if (!tilesRoomComplete && tileUnlocker != null)
-        {
-            tilesRoomComplete = true;
-            UpdateLights(tilesRoomLights, Color.green);
-        }
-    }
-
-    private void UpdateLights(List<Light> roomLights, Color color)
-    {
-        foreach (var roomLight in roomLights)
-        {
-            if (roomLight != null)
+        LeanTween.value(riddlersDoorLights.gameObject, riddlersDoorLights.intensity, lowIntensity, animationDuration)
+            .setOnUpdate((float intensity) => riddlersDoorLights.intensity = intensity)
+            .setEase(LeanTweenType.easeInOutQuad)
+            .setOnComplete(() =>
             {
-                LeanTween.value(gameObject, roomLight.color, color, 0.5f).setOnUpdate((Color updatedColor) =>
-                {
-                    roomLight.color = updatedColor;
-                });
-            }
-        }
+                LeanTween.value(riddlersDoorLights.gameObject, riddlersDoorLights.color, successColor, animationDuration)
+                    .setOnUpdate((Color color) => riddlersDoorLights.color = color)
+                    .setEase(LeanTweenType.easeInOutQuad);
+
+                LeanTween.value(riddlersDoorLights.gameObject, lowIntensity, 20.0f, animationDuration)
+                    .setOnUpdate((float intensity) => riddlersDoorLights.intensity = intensity)
+                    .setEase(LeanTweenType.easeInOutQuad)
+                    .setOnComplete(() =>
+                     {
+                         riddlersDoorLights.intensity = 20.0f;
+                     });
+            });
+    }
+
+    private void AnimateSideLight(Light finalDoorsLights)
+    {
+        LeanTween.value(finalDoorsLights.gameObject, finalDoorsLights.intensity, lowIntensity, animationDuration)
+            .setOnUpdate((float intensity) => finalDoorsLights.intensity = intensity)
+            .setEase(LeanTweenType.easeInOutQuad)
+            .setOnComplete(() =>
+            {
+                LeanTween.value(finalDoorsLights.gameObject, finalDoorsLights.color, successColor, animationDuration)
+                    .setOnUpdate((Color color) => finalDoorsLights.color = color)
+                    .setEase(LeanTweenType.easeInOutQuad);
+
+                LeanTween.value(finalDoorsLights.gameObject, lowIntensity, 20.0f, animationDuration)
+                    .setOnUpdate((float intensity) => finalDoorsLights.intensity = intensity)
+                    .setEase(LeanTweenType.easeInOutQuad)
+                    .setOnComplete(() =>
+                    {
+                        finalDoorsLights.intensity = 20.0f;
+                    });
+            });
     }
 }

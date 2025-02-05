@@ -3,19 +3,23 @@
   "WorkspaceRootPath": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\assets\\escaperoom\\scripts\\pedestal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|solutionrelative:assets\\escaperoom\\scripts\\pedestal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\assets\\escaperoom\\scripts\\unlockalltiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|solutionrelative:assets\\escaperoom\\scripts\\unlockalltiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|d:\\unity\\vr_escaperoom\\vr escaperoom\\assets\\escaperoom\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|solutionrelative:assets\\escaperoom\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\assets\\escaperoom\\scripts\\riddlepedestal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|solutionrelative:assets\\escaperoom\\scripts\\riddlepedestal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\assets\\escaperoom\\scripts\\checknumbers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|solutionrelative:assets\\escaperoom\\scripts\\checknumbers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|d:\\unity\\vr_escaperoom\\vr escaperoom\\assets\\escaperoom\\scripts\\menuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\assets\\escaperoom\\scripts\\menuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|solutionrelative:assets\\escaperoom\\scripts\\menuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -53,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\assets\\escaperoom\\scripts\\enablebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|solutionrelative:assets\\escaperoom\\scripts\\enablebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\assets\\escaperoom\\scripts\\unlockalltiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|solutionrelative:assets\\escaperoom\\scripts\\unlockalltiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -76,26 +76,51 @@
               "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\GameManager.cs",
               "ToolTip": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\EscapeRoom\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-04T20:36:40.267Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 2,
+              "Title": "RiddlePedestal.cs",
+              "DocumentMoniker": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\RiddlePedestal.cs",
+              "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\RiddlePedestal.cs",
+              "ToolTip": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\RiddlePedestal.cs",
+              "RelativeToolTip": "Assets\\EscapeRoom\\Scripts\\RiddlePedestal.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T20:43:23.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CheckNumbers.cs",
+              "DocumentMoniker": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\CheckNumbers.cs",
+              "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\CheckNumbers.cs",
+              "ToolTip": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\CheckNumbers.cs",
+              "RelativeToolTip": "Assets\\EscapeRoom\\Scripts\\CheckNumbers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T15:28:06.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "UnlockAllTiles.cs",
               "DocumentMoniker": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\UnlockAllTiles.cs",
               "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\UnlockAllTiles.cs",
               "ToolTip": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\UnlockAllTiles.cs",
               "RelativeToolTip": "Assets\\EscapeRoom\\Scripts\\UnlockAllTiles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T13:57:56.897Z"
+              "WhenOpened": "2025-02-04T13:57:56.897Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "EnableButton.cs",
               "DocumentMoniker": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\EnableButton.cs",
               "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\EnableButton.cs",
@@ -107,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "PathHintDisplay.cs",
               "DocumentMoniker": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\PathHintDisplay.cs",
               "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\PathHintDisplay.cs",
@@ -119,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "SafePathGenerator.cs",
               "DocumentMoniker": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\SafePathGenerator.cs",
               "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\SafePathGenerator.cs",
@@ -131,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "TileInteraction.cs",
               "DocumentMoniker": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\TileInteraction.cs",
               "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\TileInteraction.cs",
@@ -143,20 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CheckNumbers.cs",
-              "DocumentMoniker": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\CheckNumbers.cs",
-              "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\CheckNumbers.cs",
-              "ToolTip": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\CheckNumbers.cs",
-              "RelativeToolTip": "Assets\\EscapeRoom\\Scripts\\CheckNumbers.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T15:28:06.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "IncrementUIText.cs",
               "DocumentMoniker": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\Samples\\XR Interaction Toolkit\\3.0.5\\Starter Assets\\DemoSceneAssets\\Scripts\\IncrementUIText.cs",
               "RelativeDocumentMoniker": "Assets\\Samples\\XR Interaction Toolkit\\3.0.5\\Starter Assets\\DemoSceneAssets\\Scripts\\IncrementUIText.cs",
@@ -168,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "RandomSphereNumbers.cs",
               "DocumentMoniker": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\RandomSphereNumbers.cs",
               "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\RandomSphereNumbers.cs",
@@ -180,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "SphereKinematicControl.cs",
               "DocumentMoniker": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\SphereKinematicControl.cs",
               "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\SphereKinematicControl.cs",
@@ -192,20 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Pedestal.cs",
-              "DocumentMoniker": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\Pedestal.cs",
-              "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\Pedestal.cs",
-              "ToolTip": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\Pedestal.cs",
-              "RelativeToolTip": "Assets\\EscapeRoom\\Scripts\\Pedestal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T13:57:04.245Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AutomaticDoor.cs",
               "DocumentMoniker": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\AutomaticDoor.cs",
               "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\AutomaticDoor.cs",
@@ -217,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Screenshot.cs",
               "DocumentMoniker": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\Screenshot.cs",
               "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\Screenshot.cs",
@@ -229,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MenuUI.cs",
               "DocumentMoniker": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\MenuUI.cs",
               "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\MenuUI.cs",
@@ -237,8 +236,7 @@
               "RelativeToolTip": "Assets\\EscapeRoom\\Scripts\\MenuUI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T15:34:19.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T15:34:19.557Z"
             }
           ]
         }

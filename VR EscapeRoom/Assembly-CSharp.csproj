@@ -62,7 +62,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\LeanTween\Framework\LeanTest.cs" />
-    <Compile Include="Assets\EscapeRoom\Scripts\UnlockAllTiles.cs" />
     <Compile Include="Assets\AssetStore\8K Skybox Pack Free\Example Scenes\Script\RotateCamera.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\VideoPlayerRenderTexture.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\Rotator.cs" />
@@ -79,6 +78,7 @@
     <Compile Include="Assets\EscapeRoom\Scripts\SafePathGenerator.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\BezierCurve.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\LaunchProjectile.cs" />
+    <Compile Include="Assets\EscapeRoom\Scripts\HideAllTiles.cs" />
     <Compile Include="Assets\EscapeRoom\Scripts\TileInteraction.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTween.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanSmooth.cs" />
