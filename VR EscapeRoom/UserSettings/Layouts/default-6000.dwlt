@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -218,8 +218,8 @@ MonoBehaviour:
     y: 0
     width: 904.8
     height: 526.4
-  m_MinSize: {x: 202, y: 226}
-  m_MaxSize: {x: 4002, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -273,8 +273,8 @@ MonoBehaviour:
     y: 0
     width: 376
     height: 724.8
-  m_MinSize: {x: 276, y: 76}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -845,9 +845,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 2.2123804, y: 1.4959385, z: 11.55584}
+    m_Target: {x: 7.5080442, y: 4.3800025, z: 9.399006}
     speed: 2
-    m_Value: {x: 2.2123804, y: 1.4959385, z: 11.55584}
+    m_Value: {x: 7.5080442, y: 4.3800025, z: 9.399006}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -893,13 +893,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.087933116, y: 0.72295326, z: -0.07933296, w: 0.68255305}
+    m_Target: {x: -0.08431279, y: 0.19713145, z: -0.028090136, w: -0.9779106}
     speed: 2
-    m_Value: {x: 0.08782051, y: 0.7220275, z: -0.079231374, w: 0.681679}
+    m_Value: {x: -0.084217355, y: 0.19565792, z: -0.027946109, w: -0.9766495}
   m_Size:
-    m_Target: 0.9862776
+    m_Target: 0.9802979
     speed: 2
-    m_Value: 0.9862776
+    m_Value: 1.02649
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -917,7 +917,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 0
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0.37061894, y: -0.10665587, z: 0.043742042, w: 0.9222651}
+  m_LastSceneViewRotation: {x: -0.18091676, y: 0.7501196, z: -0.24798895, w: -0.58822095}
   m_LastSceneViewOrtho: 0
   m_Viewpoint:
     m_SceneView: {fileID: 12}
@@ -968,10 +968,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 6ab1fcff
-      m_LastClickedID: -216726
-      m_ExpandedIDs: 4eecffff5cecffffa2f1ffff68dd000088e40000a2e500009cec0000
+      scrollPos: {x: 0, y: 864}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 7a99ffff98aeffffacb1ffff10e8ffff78eeffffdceefffffaeeffffbef9ffffded00000bcd5000078d90000c6d90000cada00007cdd00006ce20000bce60000d8e6000066eb0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1143,7 +1143,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/EscapeRoom/Scripts
+    - Assets/EscapeRoom/Scripts/Managers
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1153,16 +1153,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/EscapeRoom/Scripts
+  - Assets/EscapeRoom/Scripts/Managers
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Unity\VR_EscapeRoom\VR EscapeRoom
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 315.59998}
-    m_SelectedIDs: 820c0100
-    m_LastClickedID: 68738
-    m_ExpandedIDs: 00000000380b01003a0b01003c0b01003e0b0100400b0100420b01007e0c010000ca9a3b
+    scrollPos: {x: 0, y: 327.60004}
+    m_SelectedIDs: 600a0100
+    m_LastClickedID: 68192
+    m_ExpandedIDs: 000000003407010036070100380701003a0701003c0701003e07010040070100b409010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1191,7 +1191,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000380b01003a0b01003c0b01003e0b0100400b0100420b0100440b0100460b0100
+    m_ExpandedIDs: 000000003407010036070100380701003a0701003c0701003e07010040070100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1245,7 +1245,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 16}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
