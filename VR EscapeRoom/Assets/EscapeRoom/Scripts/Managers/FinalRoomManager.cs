@@ -4,6 +4,7 @@ public class FinalRoomManager : MonoBehaviour
 {
     public GameManager gameManager;
     public Collider finalDoorTrigger;
+    public FireworkSpawner fireworkSpawner;
 
     private bool isFinalRoomUnlocked = false;
 
@@ -22,5 +23,11 @@ public class FinalRoomManager : MonoBehaviour
         {
             finalDoorTrigger.enabled = true;
         }
+    }
+
+    public void OnFinalButtonPressed()
+    {
+        if (fireworkSpawner != null)
+            fireworkSpawner.SpawnFireworks();
     }
 }

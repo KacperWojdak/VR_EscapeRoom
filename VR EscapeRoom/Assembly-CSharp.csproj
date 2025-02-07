@@ -71,7 +71,6 @@
     <Compile Include="Assets\EscapeRoom\Scripts\AutomaticDoor.cs" />
     <Compile Include="Assets\EscapeRoom\Scripts\MenuUI.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\XRPokeFollowAffordanceFill.cs" />
-    <Compile Include="Assets\AssetStore\Keypad\Scripts\KeypadButton.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\BezierCurve.cs" />
     <Compile Include="Assets\EscapeRoom\Scripts\TilesRoom\TileInteraction.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\LaunchProjectile.cs" />
@@ -85,7 +84,7 @@
     <Compile Include="Assets\VRTemplateAssets\Scripts\DestroyObject.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\VideoTimeScrubControl.cs" />
     <Compile Include="Assets\EscapeRoom\Scripts\NumbersRoom\SphereKinematicControl.cs" />
-    <Compile Include="Assets\AssetStore\Keypad\Scripts\KeypadInteractionFPV.cs" />
+    <Compile Include="Assets\EscapeRoom\Scripts\Managers\MusicManager.cs" />
     <Compile Include="Assets\EscapeRoom\Scripts\RiddlersRoom\RiddlePedestal.cs" />
     <Compile Include="Assets\EscapeRoom\Scripts\TilesRoom\PathHintDisplay.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\Callout.cs" />
@@ -93,17 +92,17 @@
     <Compile Include="Assets\VRTemplateAssets\Scripts\CalloutGazeController.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanAudio.cs" />
     <Compile Include="Assets\LeanTween\Framework\LTDescrOptional.cs" />
-    <Compile Include="Assets\AssetStore\Keypad\Scripts\Keypad.cs" />
     <Compile Include="Assets\LeanTween\Framework\LTDescr.cs" />
     <Compile Include="Assets\EscapeRoom\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\EscapeRoom\Scripts\TilesRoom\TilesRoomButton.cs" />
     <Compile Include="Assets\EscapeRoom\Scripts\Managers\TilesRoomManager.cs" />
     <Compile Include="Assets\EscapeRoom\Scripts\Managers\FinalRoomManager.cs" />
-    <Compile Include="Assets\AssetStore\Keypad\Scripts\SlidingDoor.cs" />
     <Compile Include="Assets\EscapeRoom\Scripts\Managers\NumbersRoomManager.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\StepManager.cs" />
+    <Compile Include="Assets\EscapeRoom\Scripts\Managers\PauseMenuManger.cs" />
     <Compile Include="Assets\EscapeRoom\Scripts\NumbersRoom\RandomSphereNumbers.cs" />
     <Compile Include="Assets\LeanTween\Framework\LTSeq.cs" />
+    <Compile Include="Assets\EscapeRoom\Scripts\FinalRoom\FireworkSpawner.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\AnchorVisuals.cs" />
     <Compile Include="Assets\EscapeRoom\Scripts\NumbersRoom\CheckNumbers.cs" />
   </ItemGroup>
