@@ -8,7 +8,7 @@ public class PauseMenuManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("JoystickButton9"))
+        if (Input.GetButtonDown("XRI_Right_Primary2DAxisClick"))
         {
             TogglePauseMenu();
         }
