@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -67,24 +68,20 @@ public class MusicManager : MonoBehaviour
         }
     }
 
-    public void MuteBackgroundMusic()
+    public void FadeOutMusic(float duration)
     {
-        if (!audioSource.mute)
-        {
-            audioSource.mute = true;
-            PlayerPrefs.SetInt(MuteKey, 1);
-            PlayerPrefs.Save();
-        }
+        StartCoroutine(FadeOutCoroutine(duration));
     }
 
-    public void UnmuteBackgroundMusic()
+    private IEnumerator FadeOutCoroutine(float duration)
     {
-        if (audioSource.mute)
+        float startVolume = audioSource.volume;
+        for (float t = 0; t < duration; t += Time.deltaTime)
         {
-            audioSource.mute = false;
-            PlayerPrefs.SetInt(MuteKey, 0);
-            PlayerPrefs.Save();
+            audioSource.volume = Mathf.Lerp(startVolume, 0, t / duration);
+            yield return null;
         }
+        audioSource.volume = 0;
     }
 
     public void SetVolume(float volume)

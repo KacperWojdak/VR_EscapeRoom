@@ -100,7 +100,6 @@
     <Compile Include="Assets\EscapeRoom\Scripts\Managers\FinalRoomManager.cs" />
     <Compile Include="Assets\EscapeRoom\Scripts\Managers\NumbersRoomManager.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\StepManager.cs" />
-    <Compile Include="Assets\EscapeRoom\Scripts\Managers\PauseMenuManger.cs" />
     <Compile Include="Assets\EscapeRoom\Scripts\NumbersRoom\RandomSphereNumbers.cs" />
     <Compile Include="Assets\LeanTween\Framework\LTSeq.cs" />
     <Compile Include="Assets\EscapeRoom\Scripts\FinalRoom\FireworkSpawner.cs" />

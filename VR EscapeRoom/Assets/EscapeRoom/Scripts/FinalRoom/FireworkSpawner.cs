@@ -10,6 +10,7 @@ public class FireworkSpawner : MonoBehaviour
     public MusicManager musicManager;
     public float fireworkInterval = 4.5f;
     public GameObject fireworkButton;
+    public GameObject textObject;
 
     private bool isFireworkShowActive = false;
 
@@ -24,16 +25,25 @@ public class FireworkSpawner : MonoBehaviour
                 fireworkButton.SetActive(false);
             }
 
+            if (musicManager != null)
+            {
+                musicManager.FadeOutMusic(2f);
+            }
+
+            if (textObject != null)
+            {
+                textObject.SetActive(true);
+                textObject.transform.localScale = Vector3.zero;
+
+                LeanTween.scale(textObject, Vector3.one, 1f).setEase(LeanTweenType.easeOutBack);
+            }
+
             StartCoroutine(FireworkLoop());
         }
     }
 
     private IEnumerator FireworkLoop()
     {
-        if (musicManager != null)
-        {
-            musicManager.MuteBackgroundMusic();
-        }
 
         while (isFireworkShowActive)
         {

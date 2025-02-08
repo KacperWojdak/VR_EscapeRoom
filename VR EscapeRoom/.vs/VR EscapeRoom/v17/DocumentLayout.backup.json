@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|d:\\unity\\vr_escaperoom\\vr escaperoom\\assets\\escaperoom\\scripts\\managers\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|solutionrelative:assets\\escaperoom\\scripts\\managers\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\assets\\escaperoom\\scripts\\menuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|solutionrelative:assets\\escaperoom\\scripts\\menuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|d:\\unity\\vr_escaperoom\\vr escaperoom\\assets\\escaperoom\\scripts\\managers\\pausemenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|solutionrelative:assets\\escaperoom\\scripts\\managers\\pausemenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\assets\\escaperoom\\scripts\\finalroom\\fireworkspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|solutionrelative:assets\\escaperoom\\scripts\\finalroom\\fireworkspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\assets\\escaperoom\\scripts\\managers\\pausemenumanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|solutionrelative:assets\\escaperoom\\scripts\\managers\\pausemenumanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\assets\\escaperoom\\scripts\\managers\\finalroommanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|solutionrelative:assets\\escaperoom\\scripts\\managers\\finalroommanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\assets\\escaperoom\\scripts\\menuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|solutionrelative:assets\\escaperoom\\scripts\\menuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\assets\\escaperoom\\scripts\\managers\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|solutionrelative:assets\\escaperoom\\scripts\\managers\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\assets\\escaperoom\\scripts\\soundsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|solutionrelative:assets\\escaperoom\\scripts\\soundsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\assets\\escaperoom\\scripts\\managers\\finalroommanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|solutionrelative:assets\\escaperoom\\scripts\\managers\\finalroommanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\assets\\escaperoom\\scripts\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,11 +54,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "PauseMenuManager.cs",
+              "DocumentMoniker": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\Managers\\PauseMenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\Managers\\PauseMenuManager.cs",
+              "ToolTip": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\Managers\\PauseMenuManager.cs",
+              "RelativeToolTip": "Assets\\EscapeRoom\\Scripts\\Managers\\PauseMenuManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T13:17:25.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "SoundSettings.cs",
               "DocumentMoniker": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\SoundSettings.cs",
               "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\SoundSettings.cs",
@@ -70,62 +83,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "MusicManager.cs",
               "DocumentMoniker": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\Managers\\MusicManager.cs",
               "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\Managers\\MusicManager.cs",
               "ToolTip": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\Managers\\MusicManager.cs",
               "RelativeToolTip": "Assets\\EscapeRoom\\Scripts\\Managers\\MusicManager.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAABgAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAFQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T16:04:38.379Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T16:04:38.379Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MenuUI.cs",
               "DocumentMoniker": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\MenuUI.cs",
               "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\MenuUI.cs",
               "ToolTip": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\MenuUI.cs",
               "RelativeToolTip": "Assets\\EscapeRoom\\Scripts\\MenuUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T15:22:28.321Z"
+              "WhenOpened": "2025-02-07T15:22:28.321Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PauseMenuManger.cs",
-              "DocumentMoniker": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\Managers\\PauseMenuManger.cs",
-              "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\Managers\\PauseMenuManger.cs",
-              "ToolTip": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\Managers\\PauseMenuManger.cs",
-              "RelativeToolTip": "Assets\\EscapeRoom\\Scripts\\Managers\\PauseMenuManger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T15:09:21.051Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "FireworkSpawner.cs",
               "DocumentMoniker": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\FinalRoom\\FireworkSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\FinalRoom\\FireworkSpawner.cs",
               "ToolTip": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\FinalRoom\\FireworkSpawner.cs",
               "RelativeToolTip": "Assets\\EscapeRoom\\Scripts\\FinalRoom\\FireworkSpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T14:49:28.639Z"
+              "WhenOpened": "2025-02-07T14:49:28.639Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "FinalRoomManager.cs",
               "DocumentMoniker": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\Managers\\FinalRoomManager.cs",
               "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\Managers\\FinalRoomManager.cs",
               "ToolTip": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\Managers\\FinalRoomManager.cs",
               "RelativeToolTip": "Assets\\EscapeRoom\\Scripts\\Managers\\FinalRoomManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T16:03:19.278Z"
             },
