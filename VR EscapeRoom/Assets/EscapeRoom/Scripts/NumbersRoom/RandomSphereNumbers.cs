@@ -8,7 +8,6 @@ public class RandomSphereNumbers : MonoBehaviour
     void Start()
     {
         randomNumber = Random.Range(1111, 9999);
-        Debug.Log($"Wylosowana liczba: {randomNumber}");
 
         string numberString = randomNumber.ToString();
 

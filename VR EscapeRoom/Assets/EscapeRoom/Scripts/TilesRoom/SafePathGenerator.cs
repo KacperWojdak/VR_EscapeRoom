@@ -43,10 +43,7 @@ public class SafePathGenerator : MonoBehaviour
     {
         safePath = new List<Vector2Int>();
 
-        // Losowy kafelek startowy w rzêdzie 0
         int startX = Random.Range(0, gridSizeX);
-
-        // Losowy kafelek koñcowy w rzêdzie 6
         int endX = Random.Range(0, gridSizeX);
 
         int x = startX;
@@ -55,26 +52,23 @@ public class SafePathGenerator : MonoBehaviour
         safePath.Add(new Vector2Int(x, z));
         tileGrid[x, z].isSafeTile = true;
 
-        // Generowanie œcie¿ki od startX w (0,x) do endX w (6,x)
         while (x != endX || z < gridSizeZ - 1)
         {
             if (z < gridSizeZ - 1 && (x == endX || Random.value > 0.5f))
             {
-                z++; // Ruch w dó³
+                z++;
             }
             else if (x < endX)
             {
-                x++; // Ruch w prawo
+                x++;
             }
             else if (x > endX)
             {
-                x--; // Ruch w lewo
+                x--;
             }
 
             safePath.Add(new Vector2Int(x, z));
             tileGrid[x, z].isSafeTile = true;
         }
-
-        Debug.Log($"Œcie¿ka wygenerowana poprawnie od (0,{startX}) do (6,{endX}).");
     }
 }

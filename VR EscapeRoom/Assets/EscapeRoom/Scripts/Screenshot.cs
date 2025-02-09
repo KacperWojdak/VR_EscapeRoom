@@ -36,7 +36,6 @@ public class Screenshot : MonoBehaviour
         string path = Path.Combine(folderPath, fileName);
 
         ScreenCapture.CaptureScreenshot(path);
-        Debug.Log("Screenshot saved to: " + path);
     }
 
     int GetNextScreenshotNumber()

@@ -12,11 +12,6 @@ public class PathHintDisplay : MonoBehaviour
 
     void Start()
     {
-        if (hintParent == null)
-        {
-            Debug.LogError("Hint parent is not assigned.");
-            return;
-        }
 
         foreach (Transform hintTile in hintParent)
         {
