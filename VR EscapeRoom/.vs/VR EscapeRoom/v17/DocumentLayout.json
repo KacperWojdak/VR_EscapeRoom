@@ -1,12 +1,53 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{724981A9-3D38-5D85-B7FC-1C0F0510B856}|Tests.csproj|d:\\unity\\vr_escaperoom\\vr escaperoom\\assets\\escaperoom\\scripts\\tests\\safepathgeneratortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{724981A9-3D38-5D85-B7FC-1C0F0510B856}|Tests.csproj|solutionrelative:assets\\escaperoom\\scripts\\tests\\safepathgeneratortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\assets\\escaperoom\\scripts\\screenshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C1CE865-76B5-4AFF-FC39-96FEBCCB6AB8}|Assembly-CSharp.csproj|solutionrelative:assets\\escaperoom\\scripts\\screenshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SafePathGeneratorTests.cs",
+              "DocumentMoniker": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\Tests\\SafePathGeneratorTests.cs",
+              "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\Tests\\SafePathGeneratorTests.cs",
+              "ToolTip": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\Tests\\SafePathGeneratorTests.cs",
+              "RelativeToolTip": "Assets\\EscapeRoom\\Scripts\\Tests\\SafePathGeneratorTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T13:10:44.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Screenshot.cs",
+              "DocumentMoniker": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\Screenshot.cs",
+              "RelativeDocumentMoniker": "Assets\\EscapeRoom\\Scripts\\Screenshot.cs",
+              "ToolTip": "D:\\Unity\\VR_EscapeRoom\\VR EscapeRoom\\Assets\\EscapeRoom\\Scripts\\Screenshot.cs",
+              "RelativeToolTip": "Assets\\EscapeRoom\\Scripts\\Screenshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T13:09:57.123Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
