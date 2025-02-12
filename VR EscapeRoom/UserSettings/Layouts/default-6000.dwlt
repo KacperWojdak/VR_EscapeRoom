@@ -845,9 +845,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -1.4913404, y: 2.2044404, z: 1.6416107}
+    m_Target: {x: 2.379489, y: 1.0693847, z: -0.904353}
     speed: 2
-    m_Value: {x: -1.4913404, y: 2.2044404, z: 1.6416107}
+    m_Value: {x: 2.379489, y: 1.0693847, z: -0.904353}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -893,13 +893,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.054534856, y: 0.9068866, z: -0.12182065, w: 0.40103063}
+    m_Target: {x: -0.033022277, y: 0.90124696, z: -0.071284905, w: -0.42743}
     speed: 2
-    m_Value: {x: 0.05465142, y: 0.9059142, z: -0.12168923, w: 0.40190107}
+    m_Value: {x: -0.033003893, y: 0.9007452, z: -0.071245216, w: -0.42719203}
   m_Size:
-    m_Target: 0.17944619
+    m_Target: 0.8660254
     speed: 2
-    m_Value: 0.17944619
+    m_Value: 0.8660254
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -971,21 +971,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: c69efeff30d2feff24eefeffc826ffff284dffff7296ffff4cb2ffff8acfffff30ecffffdaf9ffff58c70100
+      m_ExpandedIDs: 4e3cffffb43dffff4c5effffde65ffff9a6dffffac88ffffac8fffff0097ffff9e97ffffde9effff2cbaffff66c1ffff40caffff1adcffff28eaffffdaf9ffff5cd00000a4d00000f8d0000016d20000daef0000b8f0000056f7000074fa000018fc00004c000100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: UI
+        m_OriginalName: UI
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 53412
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 8}

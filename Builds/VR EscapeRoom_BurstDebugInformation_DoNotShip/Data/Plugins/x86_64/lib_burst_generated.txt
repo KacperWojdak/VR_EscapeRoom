@@ -1,4 +1,4 @@
-Library: C:\Users\kacpe\Desktop\VR_EscapeRoom\VR EscapeRoom\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
+Library: D:\Unity\VR_EscapeRoom\VR EscapeRoom\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --platform=Windows
 --backend=burst-llvm-16
 --target=X64_SSE2
@@ -9,10 +9,10 @@ Library: C:\Users\kacpe\Desktop\VR_EscapeRoom\VR EscapeRoom\Temp\BurstOutput\Dat
 --target-framework=NetFramework
 --linker-options=PdbAltPath="VR EscapeRoom_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
---temp-folder=C:\Users\kacpe\Desktop\VR_EscapeRoom\VR EscapeRoom\Temp\Burst
+--temp-folder=D:\Unity\VR_EscapeRoom\VR EscapeRoom\Temp\Burst
 --key-folder=C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
---decode-folder=C:\Users\kacpe\Desktop\VR_EscapeRoom\VR EscapeRoom\Library\Burst
---output=C:\Users\kacpe\Desktop\VR_EscapeRoom\VR EscapeRoom\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
+--decode-folder=D:\Unity\VR_EscapeRoom\VR EscapeRoom\Library\Burst
+--output=D:\Unity\VR_EscapeRoom\VR EscapeRoom\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Jobs.IJobExtensions+JobStruct`1[[UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Jobs.Float4TweenJob, Unity.XR.Interaction.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Jobs.Float4TweenJob&, Unity.XR.Interaction.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--34aec427743d7d01c0cb7a219c9fbe32
@@ -75,10 +75,10 @@ Library: C:\Users\kacpe\Desktop\VR_EscapeRoom\VR EscapeRoom\Temp\BurstOutput\Dat
 --target-framework=NetFramework
 --linker-options=PdbAltPath="VR EscapeRoom_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
---temp-folder=C:\Users\kacpe\Desktop\VR_EscapeRoom\VR EscapeRoom\Temp\Burst
+--temp-folder=D:\Unity\VR_EscapeRoom\VR EscapeRoom\Temp\Burst
 --key-folder=C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
---decode-folder=C:\Users\kacpe\Desktop\VR_EscapeRoom\VR EscapeRoom\Library\Burst
---output=C:\Users\kacpe\Desktop\VR_EscapeRoom\VR EscapeRoom\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
+--decode-folder=D:\Unity\VR_EscapeRoom\VR EscapeRoom\Library\Burst
+--output=D:\Unity\VR_EscapeRoom\VR EscapeRoom\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Jobs.IJobExtensions+JobStruct`1[[UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Jobs.Float4TweenJob, Unity.XR.Interaction.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Jobs.Float4TweenJob&, Unity.XR.Interaction.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--34aec427743d7d01c0cb7a219c9fbe32
@@ -143,10 +143,10 @@ Library: C:\Users\kacpe\Desktop\VR_EscapeRoom\VR EscapeRoom\Temp\BurstOutput\Dat
 --float-mode=Fast
 --linker-options=PdbAltPath="VR EscapeRoom_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
---temp-folder=C:\Users\kacpe\Desktop\VR_EscapeRoom\VR EscapeRoom\Temp\Burst
+--temp-folder=D:\Unity\VR_EscapeRoom\VR EscapeRoom\Temp\Burst
 --key-folder=C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
---decode-folder=C:\Users\kacpe\Desktop\VR_EscapeRoom\VR EscapeRoom\Library\Burst
---output=C:\Users\kacpe\Desktop\VR_EscapeRoom\VR EscapeRoom\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
+--decode-folder=D:\Unity\VR_EscapeRoom\VR EscapeRoom\Library\Burst
+--output=D:\Unity\VR_EscapeRoom\VR EscapeRoom\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Jobs.IJobForExtensions+ForJobStruct`1[[UnityEngine.Rendering.Universal.ZBinningJob, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.Universal.ZBinningJob&, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--77fc393cb521ac129b1392d4eb94d29a
@@ -163,10 +163,10 @@ Library: C:\Users\kacpe\Desktop\VR_EscapeRoom\VR EscapeRoom\Temp\BurstOutput\Dat
 --float-mode=Fast
 --linker-options=PdbAltPath="VR EscapeRoom_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
---temp-folder=C:\Users\kacpe\Desktop\VR_EscapeRoom\VR EscapeRoom\Temp\Burst
+--temp-folder=D:\Unity\VR_EscapeRoom\VR EscapeRoom\Temp\Burst
 --key-folder=C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
---decode-folder=C:\Users\kacpe\Desktop\VR_EscapeRoom\VR EscapeRoom\Library\Burst
---output=C:\Users\kacpe\Desktop\VR_EscapeRoom\VR EscapeRoom\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
+--decode-folder=D:\Unity\VR_EscapeRoom\VR EscapeRoom\Library\Burst
+--output=D:\Unity\VR_EscapeRoom\VR EscapeRoom\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Jobs.IJobForExtensions+ForJobStruct`1[[UnityEngine.Rendering.Universal.ZBinningJob, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.Universal.ZBinningJob&, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--77fc393cb521ac129b1392d4eb94d29a
@@ -181,10 +181,10 @@ Library: C:\Users\kacpe\Desktop\VR_EscapeRoom\VR EscapeRoom\Temp\BurstOutput\Dat
 --target-framework=NetFramework
 --linker-options=PdbAltPath="VR EscapeRoom_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
---temp-folder=C:\Users\kacpe\Desktop\VR_EscapeRoom\VR EscapeRoom\Temp\Burst
+--temp-folder=D:\Unity\VR_EscapeRoom\VR EscapeRoom\Temp\Burst
 --key-folder=C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
---decode-folder=C:\Users\kacpe\Desktop\VR_EscapeRoom\VR EscapeRoom\Library\Burst
---output=C:\Users\kacpe\Desktop\VR_EscapeRoom\VR EscapeRoom\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
+--decode-folder=D:\Unity\VR_EscapeRoom\VR EscapeRoom\Library\Burst
+--output=D:\Unity\VR_EscapeRoom\VR EscapeRoom\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10
@@ -297,10 +297,10 @@ Library: C:\Users\kacpe\Desktop\VR_EscapeRoom\VR EscapeRoom\Temp\BurstOutput\Dat
 --target-framework=NetFramework
 --linker-options=PdbAltPath="VR EscapeRoom_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
---temp-folder=C:\Users\kacpe\Desktop\VR_EscapeRoom\VR EscapeRoom\Temp\Burst
+--temp-folder=D:\Unity\VR_EscapeRoom\VR EscapeRoom\Temp\Burst
 --key-folder=C:/Program Files/Unity/Hub/Editor/6000.0.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
---decode-folder=C:\Users\kacpe\Desktop\VR_EscapeRoom\VR EscapeRoom\Library\Burst
---output=C:\Users\kacpe\Desktop\VR_EscapeRoom\VR EscapeRoom\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
+--decode-folder=D:\Unity\VR_EscapeRoom\VR EscapeRoom\Library\Burst
+--output=D:\Unity\VR_EscapeRoom\VR EscapeRoom\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10
