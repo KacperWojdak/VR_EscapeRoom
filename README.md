@@ -16,9 +16,9 @@ A virtual reality escape room experience developed in Unity, designed for VR goo
 - Unity Asset Store assets
 
 ### 🚧 Status
-Finished project.
-Core mechanics implemented.
-Ongoing development (future).
+- Finished project.
+- Core mechanics implemented.
+- Ongoing development (future).
 
 ### 📂 Project Structure
 - VR EscapeRoom/ – Main project directory
